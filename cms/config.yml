@@ -12,7 +12,7 @@ backend:
   #  • "Sign In Using Access Token" (Personal Access Token) — tiada server tambahan; untuk ujian / pembangun.
   #  • "Sign In with GitHub" (OAuth) — perlu Worker sveltia-cms-auth dalam akaun Cloudflare klien
   #    (docs/03). Selepas Worker siap, buang # di bawah dan isi URL Worker (new-client.sh boleh isi).
-  # base_url: https://nama-worker.akaun.workers.dev
+  base_url: https://ebintong-cms-auth.pkmb-bintong.workers.dev
 
 # Gambar yang dimuat naik disimpan di sini (relatif dari akar repo), dan laluan
 # yang disimpan dalam content/site.json ialah laluan relatif yang sama.
