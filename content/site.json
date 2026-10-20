@@ -14,10 +14,18 @@
     "map_link": "https://maps.google.com"
   },
   "slides": [
-    "assets/placeholder-slide.svg"
+    "https://picsum.photos/id/29/1920/1280.webp",
+    "https://picsum.photos/id/392/1920/1280.webp"
   ],
   "memos": [
-    "Selamat datang ke portal rasmi E-Bintong."
+    "Selamat datang ke portal rasmi E-Bintong. Padu Mat",
+    "Jom Infaq Harta anda"
   ],
-  "gov_info": []
+  "gov_info": [
+    {
+      "title": "Budi Madani",
+      "image": "https://picsum.photos/id/357/1920/1280.webp",
+      "desc": "Anda akan menerima layanan terbaik \n\nhttps://www.budimadani.gov.my/"
+    }
+  ]
 }
