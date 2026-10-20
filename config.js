@@ -16,17 +16,17 @@ window.KARADI_CONFIG = {
 
   // 1) URL Web App Apps Script — dapat selepas Deploy. Berakhir dengan /exec
   //    Biarkan "URL_APPSCRIPT_ANDA_DI_SINI" kalau belum deploy.
-  APPS_SCRIPT_URL: "URL_APPSCRIPT_ANDA_DI_SINI",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbw9YaetPBxy1h7jwydp4tOH8ylJKh5J9sKp5mEARUtPDxNr2Z-lSrie6Pxc1fS__io69w/exec",
 
   // 2) Firebase (akaun rakyat). Firebase console > Project settings > General >
   //    Your apps > Web app > "firebaseConfig". Lihat docs/02-FIREBASE.md
   FIREBASE: {
-    apiKey:            "__FIREBASE_API_KEY__",
-    authDomain:        "__FIREBASE_PROJECT_ID__.firebaseapp.com",
-    projectId:         "__FIREBASE_PROJECT_ID__",
-    storageBucket:     "__FIREBASE_PROJECT_ID__.firebasestorage.app",
-    messagingSenderId: "__FIREBASE_SENDER_ID__",
-    appId:             "__FIREBASE_APP_ID__"
+  apiKey: "AIzaSyAbpnsEVDpFUux817kjLHpDEEv44Z-Xds4",
+  authDomain: "ebintong.firebaseapp.com",
+  projectId: "ebintong",
+  storageBucket: "ebintong.firebasestorage.app",
+  messagingSenderId: "66230638840",
+  appId: "1:66230638840:web:e1a4f06bcfe700adf3830d"
   },
 
   // 3) Jenama & maklumat hubungan (keluar di header, footer, dasar privasi, PDF admin)
@@ -38,8 +38,8 @@ window.KARADI_CONFIG = {
     officeLabel:  "Pusat Khidmat Penyelaras DUN Bintong",    // Cth: Pejabat ADUN Karambunai  (kad lokasi di halaman utama)
     logo:         "assets/logo.svg",     // Letak logo klien di assets/ dan tukar nama fail di sini
     email:        "pkmb.bintong@gmail.com",   // Emel awam untuk orang ramai (BOLEH berbeza dari emel admin)
-    whatsapp:     "__WHATSAPP__",        // Digit sahaja + kod negara. Cth: 60123456789
-    phoneDisplay: "__PHONE_DISPLAY__",   // Cara nombor dipaparkan. Cth: 012-345 6789
+    whatsapp:     "60123456789",        // Digit sahaja + kod negara. Cth: 60123456789
+    phoneDisplay: "60123456789",   // Cara nombor dipaparkan. Cth: 012-345 6789
     year:         new Date().getFullYear()
   }
 };
