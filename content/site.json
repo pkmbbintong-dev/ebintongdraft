@@ -28,11 +28,18 @@
       "desc": "Anda akan menerima layanan terbaik \n\nhttps://www.budimadani.gov.my/"
     }
   ],
-  "brand": null,
+  "brand": {
+    "name": "e-Bintong",
+    "tagline": "Aduan Anda, Mudahkan Bintong",
+    "org_name": "",
+    "org_short": "",
+    "office_label": "",
+    "logo": "/assets/uploads/KESSENI-ROUND.png"
+  },
   "colors": {
-    "primary": "#d71d1d",
-    "secondary": "#252fc1",
-    "accent": "#60d214"
+    "primary": "",
+    "secondary": "",
+    "accent": ""
   },
   "hero": {
     "badge": "PORTAL RASMI e BINTONG",
