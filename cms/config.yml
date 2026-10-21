@@ -191,3 +191,36 @@ collections:
               - { label: "Dasar Privasi (BM)", name: body,    widget: text, required: false }
               - { label: "Dasar Privasi (EN)", name: body_en, widget: text, required: false, hint: "Kosong = guna versi BM" }
 
+          - label: "SEO & Perkongsian"
+            name: seo
+            widget: object
+            collapsed: true
+            required: false
+            hint: "Untuk Google dan pratonton bila pautan dikongsi di WhatsApp/Facebook. Dikemas kini dalam ~2 minit selepas simpan."
+            fields:
+              - { label: "Alamat Laman (URL penuh)", name: site_url, widget: string, required: false, hint: "Cth: https://ebintong.my — tanpa / di hujung. Perlu untuk sitemap.", pattern: ['^$|^https?://\S+$', "Mesti bermula dengan https:// (tanpa ruang)"] }
+              - { label: "Penerangan Laman (meta description)", name: description, widget: text, required: false, hint: "1–2 ayat, ~150 aksara. Dipaparkan dalam hasil carian Google." }
+              - { label: "Gambar Perkongsian", name: og_image, widget: image, required: false, hint: "1200x630. Kosong = logo." }
+              - { label: "Kod Pengesahan Google Search Console", name: google_verification, widget: string, required: false, hint: "Hanya kod dalam content=\"...\" (pilihan)" }
+
+  - name: artikel
+    label: Artikel
+    label_singular: Artikel
+    folder: content/artikel
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [date, title]
+    preview_path: "artikel/{{slug}}/"
+    description: "Setiap artikel menjadi halaman sendiri di /artikel/<tajuk>/ (bagus untuk Google). Halaman dijana ~2 minit selepas simpan."
+    fields:
+      - { label: "Tajuk", name: title, widget: string }
+      - { label: "Tarikh", name: date, widget: datetime, date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Gambar Utama", name: cover, widget: image, required: false, hint: "Landskap, cadangan 1200x630" }
+      - { label: "Ringkasan (SEO)", name: description, widget: text, required: false, hint: "~150 aksara. Dipaparkan di Google & senarai artikel. Kosong = diambil dari awal artikel." }
+      - { label: "Isi Artikel", name: body, widget: markdown }
+      - { label: "Draf (jangan terbitkan lagi)", name: draft, widget: boolean, default: false, required: false }
