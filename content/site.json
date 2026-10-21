@@ -27,5 +27,61 @@
       "image": "https://picsum.photos/id/357/1920/1280.webp",
       "desc": "Anda akan menerima layanan terbaik \n\nhttps://www.budimadani.gov.my/"
     }
-  ]
+  ],
+  "brand": null,
+  "colors": {
+    "primary": "#d71d1d",
+    "secondary": "#252fc1",
+    "accent": "#60d214"
+  },
+  "hero": {
+    "badge": "PORTAL RASMI e BINTONG",
+    "badge_en": "e BINTONG OFFICIAL PORTAL",
+    "title": "SELAMAT DATANG HAMPA KE {{name}}",
+    "title_en": "WELCOME GAIS",
+    "subtitle": "Pusat Aduan Digital",
+    "subtitle_en": ""
+  },
+  "texts": {
+    "enter": "",
+    "enter_en": "",
+    "enter_desc": "",
+    "enter_desc_en": "",
+    "check": "",
+    "check_en": "",
+    "check_desc": "",
+    "check_desc_en": "",
+    "info": "",
+    "info_en": "",
+    "info_desc": "",
+    "info_desc_en": "",
+    "contact": "",
+    "contact_en": "",
+    "contact_desc": "",
+    "contact_desc_en": "",
+    "contact_title": "",
+    "contact_title_en": "",
+    "contact_subtitle": "",
+    "contact_subtitle_en": "",
+    "footer_rights": "",
+    "footer_rights_en": "",
+    "footer_note": "",
+    "footer_note_en": ""
+  },
+  "contact": {
+    "email": "ebintong@gmail.com",
+    "whatsapp": "60134874206",
+    "phone": "",
+    "phone_display": "013-4874206",
+    "address": "No 1 Jalan Apa Khabar",
+    "facebook": "https://www.facebook.com/IbnuAlKhawariizmi",
+    "instagram": "https://www.instagram.com/ibnu_alqalasadi",
+    "tiktok": "https://www.tiktok.com/@bro_ruz",
+    "x": "",
+    "youtube": "",
+    "threads": "",
+    "telegram": "",
+    "website": ""
+  },
+  "privacy": null
 }
