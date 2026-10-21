@@ -38,8 +38,8 @@ window.KARADI_CONFIG = {
     officeLabel:  "Pusat Khidmat Penyelaras DUN Bintong",    // Cth: Pejabat ADUN Karambunai  (kad lokasi di halaman utama)
     logo:         "assets/logo.svg",     // Letak logo klien di assets/ dan tukar nama fail di sini
     email:        "pkmb.bintong@gmail.com",   // Emel awam untuk orang ramai (BOLEH berbeza dari emel admin)
-    whatsapp:     "60123456789",        // Digit sahaja + kod negara. Cth: 60123456789
-    phoneDisplay: "60123456789",   // Cara nombor dipaparkan. Cth: 012-345 6789
+    whatsapp:     "",        // Digit sahaja + kod negara. Cth: 60123456789
+    phoneDisplay: "",   // Cara nombor dipaparkan. Cth: 012-345 6789
     year:         new Date().getFullYear()
   }
 };
